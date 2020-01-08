@@ -60,5 +60,7 @@ composer require lcy/alipay
 	   }
 	}
 ```
+$data的请求参数参考https://docs.open.alipay.com/api_1/alipay.trade.page.pay
+
 ## 小笔记
 支付宝官方的sdk在使用时，需要对应添加namespace
