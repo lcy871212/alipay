@@ -1,0 +1,17 @@
+{
+    "name": "lcy/alipay",
+    "description": "支付宝支付在Laravel5.6上集成使用.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lcy",
+            "email": "2421077153@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lcy\\Alipay\\": "src/"
+        }
+    },
+    "require": {}
+}
