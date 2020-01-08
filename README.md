@@ -1,9 +1,9 @@
 Alipay
 ======
 
-支付宝SDK在Laravel5封装包。
+支付宝SDK在Laravel5.6封装包。
 
-该拓展包想要达到在Laravel5框架下，便捷使用支付宝的目的。
+该拓展包想要达到在Laravel5.6框架下，便捷对接支付宝的目的。
 
 ## 安装
 ```
@@ -27,6 +27,13 @@ composer require lcy/alipay
 ## 配置请求参数
 
 对应在env文件中设置ALIPAY_appId（应用appid）、ALIPAY_rsaPrivateKey(应用私钥)、ALIPAY_alipayrsaPublicKey(支付宝公钥)、ALIPAY_notify_url(异步通知回调)、ALIPAY_return_url(同步通知回调)
+```php
+	ALIPAY_appId=2019XXXXXXX
+	ALIPAY_rsaPrivateKey=你的应用私钥
+	ALIPAY_alipayrsaPublicKey=你的支付宝公钥
+	ALIPAY_notify_url=异步通知地址
+	ALIPAY_return_url=同步通知地址
+```
 
 
 ## 调取示例
@@ -53,3 +60,5 @@ composer require lcy/alipay
 	   }
 	}
 ```
+## 小笔记
+支付宝官方的sdk在使用时，需要对应添加namespace
