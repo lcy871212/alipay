@@ -7,13 +7,12 @@ Alipay
 
 ## 安装
 ```
-composer require lcy871212/alipay
+composer require lcy/alipay
 ```
 
 ## 使用
 
 要使用支付宝SDK服务提供者，你必须自己注册服务提供者到Laravel服务提供者列表中。
-基本上有两种方法可以做到这一点。
 
 找到 `config/app.php` 配置文件中，key为 `providers` 的数组，在数组中添加服务提供者。
 
